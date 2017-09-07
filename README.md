@@ -2,7 +2,7 @@
 > For the lazy dev. We do not rewrite the code. Only build new!
 
 ## Build:
-Version: 1.0; 
+Version: 1.1;
 Release 2016-03-16;
 By: KrielkipNL
 

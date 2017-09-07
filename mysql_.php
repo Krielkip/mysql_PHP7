@@ -10,6 +10,14 @@
  * People, stop using mysql_ please and go to mysqli_ or PDO
  */
 
+!defined ('MYSQL_CLIENT_COMPRESS') && define ('MYSQL_CLIENT_COMPRESS', 32);
+!defined ('MYSQL_CLIENT_IGNORE_SPACE') && define ('MYSQL_CLIENT_IGNORE_SPACE', 256);
+!defined ('MYSQL_CLIENT_INTERACTIVE') && define ('MYSQL_CLIENT_INTERACTIVE', 1024);
+!defined ('MYSQL_CLIENT_SSL') && define ('MYSQL_CLIENT_SSL', 2048);
+!defined ('MYSQL_ASSOC') && define ('MYSQL_ASSOC', 1);
+!defined ('MYSQL_BOTH') && define ('MYSQL_BOTH', 3);
+!defined ('MYSQL_NUM') && define ('MYSQL_NUM', 2);
+
 if (!function_exists('mysql_connect')) {
     /**
      * var connection
